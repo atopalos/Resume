@@ -55,7 +55,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 26832,
+				"buffer_size": 28533,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 22421,
 				"line_ending": "Windows"
 			}
 		}
@@ -92,7 +100,8 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/atopalou/Documents/Resume/Resume"
+		"/C/Users/atopalou/Documents/Resume/Resume",
+		"/C/Users/atopalou/Documents/Resume/Resume/css"
 	],
 	"file_history":
 	[
@@ -120,7 +129,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -134,6 +143,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"contact",
+			"welcome",
+			".footer-left",
+			"contact-row",
+			".footer-left",
+			".contact",
+			"footer-left",
+			"soci",
+			".footer-middle",
+			".contact-row",
+			".contact-right",
+			".contact-left",
+			".footer-middle",
+			"media",
+			"title",
+			"form",
+			"education",
 			"order-packages",
 			"padding: 0.8em;",
 			"datepicker",
@@ -191,24 +217,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "index.html",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26832,
+						"buffer_size": 28533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25247,
-								25277
+								25040,
+								25047
 							]
 						],
 						"settings":
@@ -217,7 +243,37 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8431.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20527,
+								20527
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16263.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
