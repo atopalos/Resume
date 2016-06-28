@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
 				"pa",
 				"padding-bottom"
 			],
 			[
 				"mar",
 				"margin-bottom"
-			],
-			[
-				"pad",
-				"padding-top"
 			],
 			[
 				"cont",
@@ -29,10 +37,6 @@
 			],
 			[
 				"padd",
-				"padding-top"
-			],
-			[
-				"padding",
 				"padding-top"
 			],
 			[
@@ -52,19 +56,38 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n<title>A. Topaloudis | Home</title>\n<!--mobile apps-->\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<meta name=\"keywords\" content=\"My Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, \n	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design\" />\n<script type=\"application/x-javascript\"> addEventListener(\"load\", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>\n<!--mobile apps-->\n<!--Custom Theme files-->\n<link href=\"css/bootstrap.css\" type=\"text/css\" rel=\"stylesheet\" media=\"all\">\n<!--font-awesome-->\n<script src=\"https://use.fontawesome.com/375368b21f.js\"></script>\n<link href=\"css/bootstrap-social.css\" type=\"text/css\" rel=\"stylesheet\" media=\"all\">\n<link href=\"css/style.css\" type=\"text/css\" rel=\"stylesheet\" media=\"all\">\n<link rel=\"stylesheet\" href=\"css/swipebox.css\">\n<!--//Custom Theme files-->\n<!--js-->\n<script src=\"js/jquery-1.11.1.min.js\"></script> \n<!-- //js -->\n<!--web-fonts-->\n<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>\n<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>\n<!--//web-fonts-->\n<!--start-smooth-scrolling-->\n<script type=\"text/javascript\" src=\"js/move-top.js\"></script>\n<script type=\"text/javascript\" src=\"js/easing.js\"></script>	\n<script type=\"text/javascript\">\n		jQuery(document).ready(function($) {\n			$(\".scroll\").click(function(event){		\n				event.preventDefault();\n				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);\n			});\n		});\n</script>\n<!--//end-smooth-scrolling-->\n</head>\n<body>\n	<!--banner-->\n	<div id=\"home\" class=\"banner\">\n		<div class=\"banner-info\">\n			<div class=\"container\">\n				<div class=\"col-md-4 header-left\">\n					<img src=\"images/picThumb.jpg\" alt=\"\"/>\n				</div>\n				<div class=\"col-md-8 header-right\">\n					<h2>Ahoi!</h2>\n					<h1>I'm Athanasios Topaloudis</h1>\n					<h6>Computer & Communication Engigneer</h6>\n					<ul class=\"address\">\n						<!-- <li>\n							<ul class=\"address-text\">\n								<li><b>D.O.B</b></li>\n								<li>16-05-1986</li>\n							</ul>\n						</li>\n						<li>\n							<ul class=\"address-text\">\n								<li><b>PHONE </b></li>\n								<li>+41 22 76 70547</li>\n							</ul>\n						</li> -->\n						<li>\n							<ul class=\"address-text\">\n								<li><b>ADDRESS </b></li>\n								<li>Geneva, Switzerland.</li>\n							</ul>\n						</li>\n						<li>\n							<ul class=\"address-text\">\n								<li><b>E-MAIL </b></li>\n								<li><a href=\"athanasios.topaloudis@cern.ch\"> athanasios.topaloudis@cern.ch</a></li>\n							</ul>\n						</li>\n						<li>\n							<ul class=\"address-text\">\n								<li><b>WEBSITE </b></li>\n								<li><a href=\"http://cern.ch/atopalou\">www.Hovercraft-yangu-ni-kamili-ya-Eles.com</a></li>\n							</ul>\n						</li>\n					</ul>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n		</div>\n	</div>\n	<!--//banner-->\n	<!--top-nav-->\n	<div class=\"top-nav wow\">\n		<div class=\"container\">\n			<div class=\"navbar-header logo\">\n				<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n					Menu\n				</button>\n			</div>\n			<!-- Collect the nav links, forms, and other content for toggling -->\n			<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n				<div class=\"menu\">\n					<ul class=\"nav navbar\">\n						<li><a href=\"#about\" class=\"scroll\">About</a></li>\n						<li><a href=\"#work\" class=\"scroll\">Experience</a></li>\n						<li><a href=\"#education\" class=\"scroll\">Education</a></li>\n						<li><a href=\"#skills\" class=\"scroll\">Skills</a></li>\n						<li><a href=\"#projects\" class=\"scroll\">My Projects</a></li>\n						<li><a href=\"#contact\" class=\"scroll\">Contact</a></li>\n					</ul>\n					<div class=\"clearfix\"> </div>\n				</div>\n			</div>\n		</div>\n	</div>	\n	<!--//top-nav-->\n	<!--about-->\n	<div id=\"about\" class=\"about\">\n		<div class=\"container\">\n			<h3 class=\"title\"> About Me</h3>\n			<div class=\"col-md-8 about-left\">\n				<p>Athanasios was born and raised in Thessaloniki, a lovely city by the sea in the north of Greece where people are famous for their easiness and openness. </p>\n				<p>He then moved to Volos a beautiful city in the center of Greece that was the birthplace of Thiseas, in the shade of mountain Pilio - home of Centaures, to study Computer & Communication Engineering. </p>\n				<p>Before finishing his studies, he moved to Geneva in Switzerland, a multicultural city in the borders of France, to work at his MSc Thesis at CERN. </p>\n				<p>He is still living in Geneva while working at CERN. </p>\n			</div>\n			<div class=\"col-md-4 about-right\">\n				<ul>\n					<h5>Interests</h5>\n					<li><span class=\"glyphicon glyphicon-menu-right\"></span> Music: Listening, Playing, Writing</li>\n					<li><span class=\"glyphicon glyphicon-menu-right\"></span> Sports: Swimming, Diving, Snowboard, Mountain Bike, Scooter</li>\n					<li><span class=\"glyphicon glyphicon-menu-right\"></span> Traveling: Sailing, Motor Bike, Auto, Train</li>\n					<li><span class=\"glyphicon glyphicon-menu-right\"></span> Writing: Poetry, Literature</li>\n					<li><span class=\"glyphicon glyphicon-menu-right\"></span> People</li>\n				</ul>\n				<div class=\"clearfix\"> </div>\n			</div>\n			<div class=\"clearfix\"> </div>\n		</div>\n	</div>\n	<!--//about-->\n	<!--work-experience-->\n	<div id=\"work\" class=\"work\">\n		<div class=\"container\">\n			<h3 class=\"title\">Work Experience</h3>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-left\"> \n					<h4>2014 - Present </h4>\n				</div>\n				<div class=\"col-md-6 work-right\"> \n					<h5><a href=\"http://www.cern.ch\"><span class=\"glyphicon glyphicon-briefcase\"> </span></a> CERN - Computer Engineer</h5>\n					<p>Responsible for the SW of various Beam Instrumentation systems such as SPS Multiple Orbit System, LHC Interlocked Beam Position Monitors (BPMs), LHC Beam Current Change Monitor (BCCM) and the Fast Beam Current Transformers (Fast BCTs) of the PS Injector Complex. </p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-right work-right2\"> \n					<h4>2012 - 2014 </h4>\n				</div>\n				<div class=\"col-md-6 work-left work-left2\"> \n					<h5> Fellow - CERN <a href=\"http://www.cern.ch\"><span class=\"glyphicon glyphicon-briefcase\"> </span></a> </h5>\n					<p>Responsible for the SW of the SPS Multiple Orbit System (MOPOS) as well as various LHC Beam Position Monitor (BPM) applications. </p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-left\"> \n					<h4>2011 - 2012 </h4>\n				</div>\n				<div class=\"col-md-6 work-right\"> \n					<h5><a href=\"http://www.cern.ch\"><span class=\"glyphicon glyphicon-briefcase\"> </span></a> CERN - Technical Student</h5>\n					<p>Worked in Real-Time SW and Expert GUI for the SPS & LHC Fast Beam Current Transformers (Fast BCTs). </p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-right work-right2\"> \n					<h4>2008 </h4>\n				</div>\n				<div class=\"col-md-6 work-left work-left2\"> \n					<h5> Summer Intern - Hellenic Petroleum <a href=\"http://www.helpe.gr/en/\"><span class=\"glyphicon glyphicon-briefcase\"></span></a> </h5>\n					<p>Assisted in Software and Hardware support as well in the Network infrastructure maintenance.</p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n		</div>\n	</div>\n	<!--//work-experience-->\n	<!--education-->\n	<div id=\"education\" class=\"education\">\n		<div class=\"container\">\n			<h3 class=\"title\">Education & Special Courses</h3>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-left \"> \n					<h4>Business Concept - 2016</h4>\n				</div>\n				<div class=\"col-md-6 work-right\"> \n					<h5><a href=\"http://www.cti-entrepreneurship.ch/en/modules/2-business-concept/\"><span class=\"glyphicon glyphicon-education\"></span></a> CTI </h5>\n					<p>The aim of the 2nd CTI module is to teach how to think and act like an entrepreneur and provide both the theoretical and the practical expertise to participants to be able to set up and run their own company. </p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-right work-right2\"> \n					<h4>CERN Accelerator School - 2014</h4>\n				</div>\n				<div class=\"col-md-6 work-left work-left2\"> \n					<h5> CERN - The Czech Technical University in Prague <a href=\"http://cas.web.cern.ch/cas/CzechRepublic2014/Prague-after.html\"><span class=\"glyphicon glyphicon-education\"></span></a></h5>\n					<p>CAS - Introduction to Accelerator Physics aims at teaching accelerator science and technology by focusing on various aspects of beam dynamics and providing an introduction to the underlying accelerator systems. </p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-left\"> \n					<h4>Startup Engineering - 2013</h4>\n				</div>\n				<div class=\"col-md-6 work-right\"> \n					<h5><a href=\"https://www.coursera.org/course/startup\"><span class=\"glyphicon glyphicon-education\"> </span></a> Coursera - Stanford</h5>\n					<p>The aim of the course is to teach the engineering skills needed to build a technology startup from the ground up. </p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-right work-right2\"> \n					<h4>CERN School of Computing - 2012</h4>\n				</div>\n				<div class=\"col-md-6 work-left work-left2\"> \n					<h5> CERN - Uppsala University <a href=\"https://csc-archive.web.cern.ch/csc-archive/2012/Default_2012/default.asp\"><span class=\"glyphicon glyphicon-education\"></span></a></h5>\n					<p>The school aims at creating a common technical culture in scientific computing among young scientists and engineers involved in particle physics or in sister experimental disciplines, as a strategic direction to favour mobility and to facilitate the development of large computing-oriented transnational projects. </p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n			<div class=\"work-info\"> \n				<div class=\"col-md-6 work-left\"> \n					<h4>Computer & Communication Engineering - 2012</h4>\n				</div>\n				<div class=\"col-md-6 work-right\"> \n					<h5><a href=\"http://www.e-ce.uth.gr/?lang=en\"><span class=\"glyphicon glyphicon-education\"></span></a> University of Thesssaly</h5>\n					<p>MSc Thesis: <a href=\"https://cds.cern.ch/record/1639546?ln=en\">“Design and Implementation of a client-server system for acquiring data from experimental particle accelerator schemes at CERN”</a></p>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n		</div>\n	</div>\n	<!--//education-->\n	<!--skills-->\n	<div id=\"skills\" class=\"skills\">\n		<div class=\"container\">\n			<h3 class=\"title\">Skills</h3>\n			<div class=\"skills-info\">\n				<div class=\"col-md-6 bar-grids\">\n					<h6>WEB DESIGN  <span> 80% </span></h6>\n					<div class=\"progress\">\n						<div class=\"progress-bar progress-bar-striped active\" style=\"width: 80%\">\n						</div>\n					</div>\n					<h6>UI DESIGN & DEVELOPER <span> 70% </span></h6>\n					<div class=\"progress\">\n						<div class=\"progress-bar progress-bar-striped active\" style=\"width: 70%\">\n						</div>\n					</div>\n					<h6>HTML/CSS<span>90% </span></h6>\n					<div class=\"progress\">\n						<div class=\"progress-bar progress-bar-striped active\" style=\"width: 90%\">\n						</div>\n					</div>\n					<h6>PHOTOSHOP <span> 75% </span></h6>\n					<div class=\"progress\">\n						<div class=\"progress-bar progress-bar-striped active\" style=\"width: 75%\">\n						</div>\n					</div>\n				</div>\n				<div class=\"col-md-6 bar-grids\">\n					<h6>PROJECT MANAGEMENT <span> 85% </span></h6>\n					<div class=\"progress\">\n						<div class=\"progress-bar progress-bar-striped active\" style=\"width: 85%\">\n						</div>\n					</div>\n					<h6>SOCIAL MEDIA MARKETING<span> 95% </span></h6>\n					<div class=\"progress\">\n						<div class=\"progress-bar progress-bar-striped active\" style=\"width: 95%\">\n						</div>\n					</div>\n					<h6>UX DEVELOPER<span>80% </span></h6>\n					<div class=\"progress\">\n						<div class=\"progress-bar progress-bar-striped active\" style=\"width: 80%\">\n						</div>\n					</div>\n					<h6>PHP DESIGN<span> 60% </span></h6>\n					<div class=\"progress\">\n						<div class=\"progress-bar progress-bar-striped active\" style=\"width: 60%\">\n						</div>\n					</div>\n				</div>\n				<div class=\"clearfix\"> </div>\n			</div>\n		</div>\n	</div>\n	<!--//education-->\n	<!--portfolio-->\n	<div id=\"projects\" class=\"portfolio\">\n		<div class=\"container\">\n			<h3 class=\"title wow zoomInLeft animated\" data-wow-delay=\".5s\">My Projects</h3>\n			<div class=\"sap_tabs\">			\n				<div id=\"horizontalTab\" style=\"display: block; width: 100%; margin: 0px;\">\n					<ul class=\"resp-tabs-list wow fadeInUp animated\" data-wow-delay=\".7s\">\n						<li class=\"resp-tab-item\"><span>All</span></li>\n						<li class=\"resp-tab-item\"><span>Html</span></li>\n						<li class=\"resp-tab-item\"><span> Photoshop</span></li>\n						<li class=\"resp-tab-item\"><span>Wordpress</span></li>					\n					</ul>	\n					<div class=\"clearfix\"> </div>	\n					<div class=\"resp-tabs-container\">\n						<div class=\"tab-1 resp-tab-content\">\n							<div class=\"tab_img\">\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g1.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g1.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid effect-sarah\">\n										<a href=\"images/g2.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g2.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g3.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g3.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g4.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g4.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g5.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g5.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g6.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g6.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g7.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g7.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g8.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g8.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g9.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g9.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"clearfix\"> </div>\n							</div>\n						</div>\n						<div class=\"tab-1 resp-tab-content\">\n							<div class=\"tab_img\">\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g5.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g5.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g6.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g6.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g7.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g7.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"clearfix\"> </div>\n							</div>\n						</div>\n						<div class=\"tab-1 resp-tab-content\">\n							<div class=\"tab_img\">\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g3.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g3.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g1.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g1.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g9.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g9.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"clearfix\"> </div>\n							</div>\n						</div>\n						<div class=\"tab-1 resp-tab-content\">\n							<div class=\"tab_img\">\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g2.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g2.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g4.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g4.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"col-md-4 portfolio-grids\">\n									<div class=\"grid\">\n										<a href=\"images/g8.jpg\" class=\"swipebox\" title=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non\">\n											<img src=\"images/g8.jpg\" alt=\"\" class=\"img-responsive\" />\n											<div class=\"figcaption\">\n												<h3>My<span> Project</span></h3>\n												<p>Sarah likes to watch clouds. She's quite depressed.</p>\n											</div>\n										</a>	\n									</div>\n								</div>\n								<div class=\"clearfix\"> </div>\n							</div>\n						</div>\n					</div>\n				</div>\n			</div>\n			<!--ResponsiveTabs-->\n			<script src=\"js/easyResponsiveTabs.js\" type=\"text/javascript\"></script>\n			<script type=\"text/javascript\">\n				$(document).ready(function () {\n					$('#horizontalTab').easyResponsiveTabs({\n						type: 'default', //Types: default, vertical, accordion           \n						width: 'auto', //auto or any width like 600px\n						fit: true   // 100% fit in a container\n					});\n				});		\n			</script>\n			<!--//ResponsiveTabs-->\n			<!-- swipe box js -->\n			<script src=\"js/jquery.swipebox.min.js\"></script> \n				<script type=\"text/javascript\">\n					jQuery(function($) {\n						$(\".swipebox\").swipebox();\n					});\n			</script>\n			<!-- //swipe box js -->\n		</div>\n	</div>\n	<!--//portfolio-->\n	<!--contact -->\n	<div class=\"welcome contact\" id=\"contact\">\n		<div class=\"container\">\n			<h3 class=\"title\">Contact Me</h3>\n\n			<div class=\"contact-row\">\n\n				<div class=\"col-md-3 contact-left\">\n					<h4>Address</h4>\n					<p>\n						CERN - Z07700<br>\n						Geneva 23, CH-1211,<br>\n						Geneva, Switzerland<br>\n						<abbr title=\"Phone\">P :</abbr> +41 22 76 70547\n					</p>\n				</div>\n				<div class=\"col-md-6 contact-middle\">\n					<h4>Contact</h4>\n					<form action=\"#\" method=\"post\">\n						<div class=\"ft-lt\">\n							<input type=\"text\" value=\"First Name\" placeholder=\"\" onfocus=\"this.value='';\" onblur=\"if (this.value == '') {this.value = 'First Name';}\">	\n							<input type=\"text\" value=\"Last Name\" placeholder=\"\" onfocus=\"this.value='';\" onblur=\"if (this.value == '') {this.value = 'Last Name';}\">				\n							<input type=\"text\" value=\"Email Address\" placeholder=\"\" onfocus=\"this.value='';\" onblur=\"if (this.value == '') {this.value = 'Email Address';}\">\n						</div>\n						<div class=\"ft-rgt\">\n							<textarea placeholder=\"\" onfocus=\"this.value='';\" onblur=\"if (this.value == '') {this.value = 'Message';}\">Message</textarea>	\n							<input type=\"submit\" value=\"SUBMIT\">\n						</div>\n					</form>\n				</div>\n				<div class=\"col-md-3 contact-left\">\n					<h4>Follow</h4>\n						<div class=\"soci\">\n							<a class=\"btn btn-social-icon btn-linkedin\" href=\"https://www.linkedin.com/in/athanasios-topaloudis-080b1359\">\n    							<span class=\"fa fa-linkedin\"></span>\n  							</a>\n  							<a class=\"btn btn-social-icon btn-github\" href=\"https://github.com/atopalos\">\n    							<span class=\"fa fa-github\"></span>\n  							</a>\n  							<a class=\"btn btn-social-icon btn-angelList\" href=\"https://github.com/atopalos\">\n    							<span class=\"fa angelList-img\"></span>\n  							</a>\n\n\n\n  							<i class=\"fa fa-arrow-circle-o-up\" aria-hidden=\"true\"></i>\n						</div>\n				</div>\n				<div class=\"clearfix\"></div>\n			</div>\n		</div>\n	</div>\n	<!--//contact -->\n	<!--footer-->\n	<div class=\"footer\">\n		<div class=\"container\">\n			<p>© 2016 A. Topaloudis. All rights reserved </p>\n		</div>\n	</div>\n	<!--//footer-->\n	<!--smooth-scrolling-of-move-up-->\n	<script type=\"text/javascript\">\n		$(document).ready(function() {\n		\n			var defaults = {\n				containerID: 'toTop', // fading element id\n				containerHoverID: 'toTopHover', // fading element hover id\n				scrollSpeed: 1200,\n				easingType: 'linear' \n			};\n			\n			$().UItoTop({ easingType: 'easeOutQuart' });\n			\n		});\n	</script>\n	<!--//smooth-scrolling-of-move-up-->\n	<!-- Bootstrap core JavaScript\n    ================================================== -->\n    <!-- Placed at the end of the document so the pages load faster -->\n    <script src=\"js/bootstrap.js\"></script>\n</body>\n</html>",
 			"file": "index.html",
+			"file_size": 28527,
+			"file_write_time": 131115133384106615,
 			"settings":
 			{
-				"buffer_size": 28533,
+				"buffer_size": 27899,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/bootstrap-social.css",
+			"settings":
+			{
+				"buffer_size": 35388,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 22421,
+				"buffer_size": 22773,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/move-top.js",
+			"settings":
+			{
+				"buffer_size": 1330,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -101,10 +124,13 @@
 	"expanded_folders":
 	[
 		"/C/Users/atopalou/Documents/Resume/Resume",
-		"/C/Users/atopalou/Documents/Resume/Resume/css"
+		"/C/Users/atopalou/Documents/Resume/Resume/css",
+		"/C/Users/atopalou/Documents/Resume/Resume/fonts",
+		"/C/Users/atopalou/Documents/Resume/Resume/js"
 	],
 	"file_history":
 	[
+		"/C/Users/atopalou/Documents/Resume/Resume/css/bootstrap-social.css",
 		"/C/Users/atopalou/Documents/Resume/Resume/css/style.css",
 		"/C/Users/atopalou/Documents/Resume/Resume/index.html",
 		"/G/Websites/a/atopalou/Default.htm",
@@ -143,6 +169,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background-image:",
+			"f-1",
+			"fa-github",
+			"yahoo",
+			"Social Icons",
+			"    \n",
+			"welcome",
+			"soci",
+			"footer-middle",
+			"footer-left",
+			"contact",
+			"welcome",
+			"footer-",
+			"footer-top",
+			"welcome",
+			"contact",
+			"contact-row",
 			"contact",
 			"welcome",
 			".footer-left",
@@ -190,6 +233,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"angelList",
+			"contact-middle",
+			"contact-left",
 			"\"question-row-label col-xs-3 control-label\"",
 			"\"question-row-num col-xs-1 control-label\"",
 			"\"question-row-label col-xs-2 control-label\"",
@@ -226,15 +272,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28533,
+						"buffer_size": 27899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25040,
-								25047
+								26912,
+								26928
 							]
 						],
 						"settings":
@@ -243,27 +289,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8431.0,
+						"translation.y": 8643.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/style.css",
+					"file": "css/bootstrap-social.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22421,
+						"buffer_size": 35388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20527,
-								20527
+								33880,
+								33880
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1575.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13575,
+								13575
 							]
 						],
 						"settings":
@@ -273,10 +347,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 16263.0,
+						"translation.y": 9654.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/move-top.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -321,7 +423,7 @@
 	"project": "Resume.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -359,7 +461,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 227.0,
+	"side_bar_width": 271.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -655,40 +655,6 @@ h2.resp-accordion {
     width:22%;
     float: left;
 }
-.soci a{
-    display:inline-block;
-    padding:0 0.2em;
-}
-i.f-1 {
-    width: 30px;
-    height: 30px;
-    background: url(../images/soci.png)no-repeat -10px -8px;
-    float: left;
-    vertical-align: middle;
-}
-i.f-1:hover{
-    opacity:0.5;
-}
-i.t-1 {
-     width: 30px;
-    height: 30px;
-    background: url(../images/soci.png)no-repeat -44px -8px;
-    float: left;
-    vertical-align: middle;
-}
-i.t-1:hover{
-    opacity:0.5;
-}
-i.g-1{
-   width: 30px;
-    height: 30px;
-    background: url(../images/soci.png)no-repeat -80px -8px;
-    float: left;
-    vertical-align: middle;
-}
-i.g-1:hover{
-    opacity:0.5;
-}
 /*-- footer --*/
 .copyright {
     background-color:#9E8FD7;
@@ -726,30 +692,54 @@ i.g-1:hover{
 }
 /*--//footer--*/
 /*--slider-up-arrow--*/
+.fa-arrow-circle-o-up {
+    color: #008B8B;
+    font-size: 4em;
+}
+
 #toTop {
-	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 3%;
-	right: 3%;
-	overflow: hidden;
-	width: 32px;
-	height: 32px;
-	border: none;
-	text-indent: 100%;
-	background: url("../images/move-up.png") no-repeat 0px 0px;
-	z-index:999;
+    display: none;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    display: none;
+    text-decoration: none;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    border: none;
+    z-index:999;
 }
+
+#toTop:before {
+    content:'\e027';
+    color:#008B8B;
+    font-size: 2em;
+}
+
+#toTop:hover {
+    font-size: 1.1em;
+    width: 33px;
+    height: 33px; 
+}
+
 #toTopHover {
-	width: 32px;
-	height: 32px;
-	display: block;
-	overflow: hidden;
-	float: right;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter: alpha(opacity=0);
+    width: 32px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
 }
+
 /*--//slider-up-arrow--*/
 /*---- responsive-design -----*/
 @media(max-width:1366px){
