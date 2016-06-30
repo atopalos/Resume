@@ -2,7 +2,10 @@ $(document).ready(function () {
 
     $("#contact-form").validate({
         rules: {
-            fullname: {
+            firstname: {
+                required: true
+            },
+            lastname: {
                 required: true
             },
             email: {
@@ -16,14 +19,17 @@ $(document).ready(function () {
         },
 
         messages: { // custom messages
-            fullname: {
-                required: "Please enter your name"
+            firstname: {
+                required: "Please enter your first name"
+            },
+            lastname: {
+                required: "Please enter your last name"
             },
             email: {
                 required: "Please enter your email address"
             },
             message: {
-                required: "enter your message",
+                required: "Please enter your message",
                 maxlength: jQuery.format("The maxlength for message is {0} !")
             },
         },

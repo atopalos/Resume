@@ -672,6 +672,29 @@ h2.resp-accordion {
 .copyright p a:hover {
   text-decoration:underline;
 }
+.contact-form label.error, div#errors {
+    border: 2px solid #008B8B !important;
+    border-radius: 0.3em;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #008B8B;
+}
+div#errors{
+    display:none;
+}
+.contact-form #msg_submitting{
+    color: #008B8B;
+}
+.contact-form #msg_submitting{
+    display:none;
+}
+.contact-form #msg_submitted{
+    color: #008B8B;
+}
+.contact-form #msg_submitted{
+    display:none;
+}
 /*--//Social Icons--*/
 /*--//contact--*/
 /*--footer--*/
